@@ -1,0 +1,10 @@
+# Normaliza finais de linha nos arquivos de texto
+* text=auto eol=lf
+
+# Nunca converter binários (o PDF do currículo seria corrompido)
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.webp binary
+*.ico   binary
+*.woff2 binary
