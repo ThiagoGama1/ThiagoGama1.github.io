@@ -1,12 +1,12 @@
 /* =========================================================
-   i18n — dicionário PT / EN
+   i18n: dicionário PT / EN
    O HTML já vem em PT; o dicionário PT existe para permitir
    voltar do inglês sem recarregar a página.
    ========================================================= */
 window.TG_I18N = {
   pt: {
-    "meta.title": "Thiago Gama — Desenvolvedor Backend (Go)",
-    "meta.desc": "Thiago Gama Santoro Moreira — Desenvolvedor Backend em Go. APIs REST com Gin e GORM, PostgreSQL e sistemas web em produção. Estudante de Ciência da Computação (UVV) em Vitória, ES.",
+    "meta.title": "Thiago Gama | Desenvolvedor Backend (Go)",
+    "meta.desc": "Thiago Gama Santoro Moreira, desenvolvedor backend em Go. APIs REST com Gin e GORM, PostgreSQL e sistemas web em produção. Estudante de Ciência da Computação na UVV, em Vitória (ES).",
 
     "a11y.skip": "Pular para o conteúdo",
     "a11y.theme": "Alternar tema claro/escuro",
@@ -20,7 +20,7 @@ window.TG_I18N = {
 
     "hero.status": "Aberto a novas oportunidades",
     "hero.role": "Desenvolvedor Backend",
-    "hero.lede": "Construo APIs REST, sistemas web e automações em Go que rodam em produção e resolvem problemas reais — usados todos os meses por centenas de pessoas.",
+    "hero.lede": "Construo APIs REST, sistemas web e automações em Go. O que eu escrevo vai para produção e é usado todo mês por centenas de pessoas.",
     "hero.ctaProjects": "Ver projetos",
     "hero.ctaCv": "Baixar CV",
 
@@ -30,9 +30,9 @@ window.TG_I18N = {
     "stats.semester": "período de Ciência da Computação",
 
     "about.title": "Sobre",
-    "about.p1": "Sou estudante de Ciência da Computação no 6º período da UVV e estagiário de desenvolvimento de sistemas na Rede Tribuna, onde participo do ciclo completo — do modelo de dados ao deploy — de sistemas web usados diariamente pelas áreas de RH, comercial e financeiro.",
-    "about.p2": "Meu foco é backend em Go: APIs REST com Gin e GORM, PostgreSQL, autenticação com JWT e sessão, arquitetura MVC. Também tenho base sólida em C, o que me deu intimidade com ponteiros, alocação dinâmica e estruturas de dados — assuntos que continuo praticando por conta própria fora do trabalho.",
-    "about.p3": "Gosto de construir coisas que funcionam de verdade: APIs, automações e ferramentas que alguém abre na segunda-feira de manhã e simplesmente usa.",
+    "about.p1": "Sou estudante de Ciência da Computação no 6º período da UVV e estagiário de desenvolvimento de sistemas na Rede Tribuna. Lá eu pego os sistemas do começo ao fim, do modelo de dados ao deploy, e eles são usados todo dia pelas áreas de RH, comercial e financeiro.",
+    "about.p2": "Meu foco é backend em Go: APIs REST com Gin e GORM, PostgreSQL, autenticação com JWT e sessão, arquitetura MVC. Tenho também uma base forte em C, que me obrigou a entender ponteiros, alocação dinâmica e estruturas de dados de perto. Continuo estudando esses assuntos por conta própria fora do trabalho.",
+    "about.p3": "Gosto de fazer coisa que funciona. API, automação, ferramenta interna, tanto faz: o que importa é ter alguém do outro lado usando.",
     "about.nowTitle": "status atual",
     "about.roleK": "Cargo",
     "about.roleV": "Estagiário de Desenvolvimento de Sistemas",
@@ -41,35 +41,35 @@ window.TG_I18N = {
     "about.focusK": "Foco",
     "about.focusV": "Backend · Go · PostgreSQL",
     "about.seekK": "Buscando",
-    "about.seekV": "Estágio ou vaga júnior em backend / full stack",
+    "about.seekV": "Estágio ou vaga júnior em desenvolvimento de software",
 
     "exp.title": "Experiência",
     "exp.jobRole": "Estagiário de Desenvolvimento de Sistemas",
     "exp.jobFrom": "Set 2025",
     "exp.jobTo": "atual",
-    "exp.jobIntro": "Ciclo completo de desenvolvimento de sistemas web internos e públicos para as áreas de RH, comercial e financeiro. Reporto o progresso diretamente ao gestor, com entregas incrementais.",
+    "exp.jobIntro": "Desenvolvo sozinho, de ponta a ponta, sistemas web internos e públicos para as áreas de RH, comercial e financeiro. Reporto o andamento direto ao gestor e entrego em partes.",
     "exp.p1t": "Plataforma de Sorteios e Promoções",
-    "exp.p1d": "Back-end da plataforma pública de sorteios das rádios do grupo (Tribuna FM, Legal FM e Tribuna FM Cachoeiro), usada por ouvintes e pela equipe das emissoras. Inclui autenticação JWT e integração com serviço externo de verificação de assinantes.",
+    "exp.p1d": "Desenvolvi a plataforma pública de sorteios das rádios do grupo (Tribuna FM, Legal FM e Tribuna FM Cachoeiro), que atende tanto os ouvintes quanto a equipe das emissoras. Tem autenticação JWT e integração com um serviço externo que verifica se a pessoa é assinante.",
     "exp.p2t": "Sistema de Conformidade com a NR-1",
-    "exp.p2d": "Sistema web de gestão de riscos psicossociais usado mensalmente por cerca de 300 funcionários: avaliação do ambiente de trabalho e registro confidencial de denúncias de assédio. Arquitetura MVC em Go, autenticação por sessão e hashing com bcrypt.",
+    "exp.p2d": "Sistema de gestão de riscos psicossociais que cerca de 300 funcionários usam todo mês para avaliar o ambiente de trabalho e registrar denúncias de assédio de forma confidencial. Fiz em Go, com arquitetura MVC, autenticação por sessão e senha com bcrypt.",
     "exp.p3t": "Portal de Autoatendimento do RH",
-    "exp.p3d": "Back-end de um portal onde cerca de 300 colaboradores atualizam dados cadastrais e bancários, com controle de acesso por perfil (administrador × colaborador) e autenticação via JWT. Implantado como serviço no Windows Server.",
+    "exp.p3d": "Portal que desenvolvi a pedido do RH, onde cerca de 300 colaboradores atualizam dados cadastrais e bancários. Tem controle de acesso por perfil (administrador e colaborador) e autenticação por JWT. Roda como serviço no Windows Server.",
     "exp.p4t": "Base de Conhecimento Interna",
-    "exp.p4d": "Sistema de gestão de conhecimento com arquitetura REST, criado para acelerar o treinamento de novos colaboradores e reter o conhecimento técnico da equipe.",
+    "exp.p4d": "Sistema de gestão de conhecimento com arquitetura REST, feito para acelerar o treinamento de quem entra na equipe e não deixar o conhecimento técnico ir embora junto com as pessoas.",
     "exp.p5t": "Sustentação de Automações Críticas",
-    "exp.p5d": "Execução e monitoramento de scripts em Python responsáveis pela integridade diária dos processos de controle de crédito e da geração de Pedidos de Inserção (PIs) das áreas comercial e financeira.",
+    "exp.p5d": "Cuido dos scripts em Python que garantem a integridade diária do controle de crédito e da geração de Pedidos de Inserção (PIs) do comercial e do financeiro. Executo, monitoro e corrijo quando quebra.",
 
     "proj.title": "Projetos",
     "proj.view": "Ver no GitHub",
-    "proj.taskflow": "Gerenciador de projetos acadêmicos colaborativos com quadro Kanban (arrastar e soltar, ordenação personalizada), prioridades, prazos, convite de membros e dashboard pessoal que agrupa tarefas por urgência — atrasadas, para hoje e próximas. Autenticação com bcrypt, repositórios, middleware próprio e suíte de testes de integração.",
+    "proj.taskflow": "Gerenciador de projetos acadêmicos colaborativos com quadro Kanban (arrastar e soltar, ordenação personalizada), prioridades, prazos e convite de membros. O dashboard pessoal separa as tarefas em atrasadas, para hoje e próximas. Tem autenticação com bcrypt, camada de repositórios, middleware próprio e testes de integração.",
     "proj.lista": "Aplicação fullstack de gestão de tarefas: API REST em Go com validação no back-end, CRUD completo e reordenação por posição de exibição. Front-end em JavaScript puro consumindo a API, com Docker Compose para subir tudo de uma vez.",
     "proj.btreeT": "Árvore B",
-    "proj.btreeD": "Implementação de árvore B em C cobrindo inserção, balanceamento e busca — a estrutura que sustenta os índices dos bancos de dados que uso no dia a dia.",
+    "proj.btreeD": "Implementação de árvore B em C, com inserção, balanceamento e busca. É a estrutura por trás dos índices dos bancos de dados que uso no dia a dia.",
     "proj.rbT": "Árvore Rubro-Negra",
     "proj.rbD": "Implementação passo a passo de árvore rubro-negra em C, com foco nas rotações e nas regras de recoloração que mantêm a árvore balanceada a cada inserção.",
     "proj.dsD": "Estruturas de dados clássicas em C: árvore binária de busca (inserção, busca, percursos pré/in/pós-ordem e remoção) e lista encadeada com inserção, remoção por valor e gerenciamento manual de memória.",
     "proj.cfT": "Treino em Algoritmos",
-    "proj.cfD": "Resoluções de problem sets do Codeforces em C, como prática contínua de lógica de programação, algoritmos e estruturas de dados fora do horário de trabalho.",
+    "proj.cfD": "Problem sets do Codeforces resolvidos em C. É o meu treino de lógica de programação, algoritmos e estruturas de dados fora do horário de trabalho.",
 
     "stack.title": "Stack",
     "stack.lang": "Linguagens",
@@ -99,15 +99,15 @@ window.TG_I18N = {
     "edu.es": "Espanhol",   "edu.esL": "básico",
 
     "contact.kicker": "contato",
-    "contact.title": "Vamos construir alguma coisa juntos?",
-    "contact.lede": "Estou em busca de estágio ou vaga júnior em backend, full stack ou desenvolvimento generalista — presencial em Vitória/ES ou remoto. Se você achou meu perfil interessante, me chame.",
+    "contact.title": "Vamos conversar?",
+    "contact.lede": "Procuro estágio ou vaga júnior em desenvolvimento de software, sem me prender a um rótulo: backend, full stack, automação, integrações, ferramentas internas. O que me interessa é o problema. Presencial em Vitória (ES) ou remoto.",
 
-    "footer.built": "Feito à mão com HTML, CSS e JavaScript"
+    "footer.built": "HTML, CSS e JavaScript puro. Sem framework."
   },
 
   en: {
-    "meta.title": "Thiago Gama — Backend Developer (Go)",
-    "meta.desc": "Thiago Gama Santoro Moreira — Backend developer working in Go. REST APIs with Gin and GORM, PostgreSQL and web systems running in production. Computer Science student (UVV) in Vitória, Brazil.",
+    "meta.title": "Thiago Gama | Backend Developer (Go)",
+    "meta.desc": "Thiago Gama Santoro Moreira, backend developer working in Go. REST APIs with Gin and GORM, PostgreSQL and web systems in production. Computer Science student at UVV, in Vitória, Brazil.",
 
     "a11y.skip": "Skip to content",
     "a11y.theme": "Toggle light/dark theme",
@@ -121,7 +121,7 @@ window.TG_I18N = {
 
     "hero.status": "Open to new opportunities",
     "hero.role": "Backend Developer",
-    "hero.lede": "I build REST APIs, web systems and automations in Go that run in production and solve real problems — used every month by hundreds of people.",
+    "hero.lede": "I build REST APIs, web systems and automations in Go. What I write goes to production and gets used every month by hundreds of people.",
     "hero.ctaProjects": "See projects",
     "hero.ctaCv": "Download CV",
 
@@ -131,9 +131,9 @@ window.TG_I18N = {
     "stats.semester": "semester of Computer Science",
 
     "about.title": "About",
-    "about.p1": "I'm a Computer Science student in my 6th semester at UVV and a software development intern at Rede Tribuna, where I work across the full cycle — from the data model to deployment — of web systems used daily by the HR, sales and finance departments.",
-    "about.p2": "My focus is backend development in Go: REST APIs with Gin and GORM, PostgreSQL, JWT and session-based authentication, MVC architecture. I also have solid foundations in C, which gave me a close relationship with pointers, dynamic allocation and data structures — topics I keep practising on my own outside work.",
-    "about.p3": "I like building things that actually work: APIs, automations and tools that someone opens on a Monday morning and simply uses.",
+    "about.p1": "I'm a Computer Science student in my 6th semester at UVV and a software development intern at Rede Tribuna. There I take systems from start to finish, from the data model to deployment, and they get used every day by the HR, sales and finance teams.",
+    "about.p2": "My focus is backend development in Go: REST APIs with Gin and GORM, PostgreSQL, JWT and session authentication, MVC architecture. I also have a strong base in C, which forced me to understand pointers, dynamic allocation and data structures up close. I keep studying those on my own outside work.",
+    "about.p3": "What I like is making things that work. An API, an automation, an internal tool, it doesn't matter, as long as someone is on the other end using it.",
     "about.nowTitle": "current status",
     "about.roleK": "Role",
     "about.roleV": "Software Development Intern",
@@ -142,35 +142,35 @@ window.TG_I18N = {
     "about.focusK": "Focus",
     "about.focusV": "Backend · Go · PostgreSQL",
     "about.seekK": "Looking for",
-    "about.seekV": "Internship or junior role in backend / full stack",
+    "about.seekV": "Internship or junior role in software development",
 
     "exp.title": "Experience",
     "exp.jobRole": "Software Development Intern",
     "exp.jobFrom": "Sep 2025",
     "exp.jobTo": "present",
-    "exp.jobIntro": "Full development cycle of internal and public web systems for the HR, sales and finance departments. I report progress directly to my manager, delivering incrementally.",
+    "exp.jobIntro": "I build internal and public web systems for the HR, sales and finance teams on my own, end to end. I report progress straight to my manager and ship in increments.",
     "exp.p1t": "Giveaways & Promotions Platform",
-    "exp.p1d": "Back-end of the public giveaway platform for the group's radio stations (Tribuna FM, Legal FM and Tribuna FM Cachoeiro), used by listeners and by the stations' staff. Includes JWT authentication and integration with an external subscriber verification service.",
+    "exp.p1d": "I built the public giveaway platform for the group's radio stations (Tribuna FM, Legal FM and Tribuna FM Cachoeiro), which serves both the listeners and the stations' staff. It has JWT authentication and integrates with an external service that checks whether the person is a subscriber.",
     "exp.p2t": "NR-1 Compliance System",
-    "exp.p2d": "Web system for psychosocial risk management used monthly by around 300 employees: workplace environment assessment and confidential reporting of harassment complaints. MVC architecture in Go, session-based authentication and bcrypt hashing.",
+    "exp.p2d": "A psychosocial risk management system that around 300 employees use every month to assess the work environment and file confidential harassment reports. I built it in Go, with MVC architecture, session authentication and bcrypt password hashing.",
     "exp.p3t": "HR Self-Service Portal",
-    "exp.p3d": "Back-end of a portal where around 300 employees update their personal and banking details, with role-based access control (admin × employee) and JWT authentication. Deployed as a Windows Server service.",
+    "exp.p3d": "A portal I built at HR's request, where around 300 employees update their personal and banking details. It has role-based access control (admin and employee) and JWT authentication. It runs as a Windows Server service.",
     "exp.p4t": "Internal Knowledge Base",
-    "exp.p4d": "Knowledge management system with a REST architecture, built to speed up the onboarding of new hires and retain the team's technical knowledge.",
+    "exp.p4d": "A knowledge management system with a REST architecture, built to speed up onboarding and keep the team's technical knowledge from walking out the door with people.",
     "exp.p5t": "Critical Automation Support",
-    "exp.p5d": "Running and monitoring the Python scripts responsible for the daily integrity of credit control processes and the generation of Insertion Orders (PIs) for the sales and finance departments.",
+    "exp.p5d": "I look after the Python scripts that keep credit control and the generation of Insertion Orders (PIs) correct every day for the sales and finance teams. I run them, monitor them and fix them when they break.",
 
     "proj.title": "Projects",
     "proj.view": "View on GitHub",
-    "proj.taskflow": "Collaborative academic project manager with a Kanban board (drag and drop, custom ordering), priorities, due dates, member invitations and a personal dashboard that groups tasks by urgency — overdue, due today and upcoming. bcrypt authentication, repository layer, custom middleware and an integration test suite.",
+    "proj.taskflow": "Collaborative academic project manager with a Kanban board (drag and drop, custom ordering), priorities, due dates and member invitations. The personal dashboard splits tasks into overdue, due today and upcoming. It has bcrypt authentication, a repository layer, custom middleware and integration tests.",
     "proj.lista": "Fullstack task management app: REST API in Go with back-end validation, full CRUD and reordering by display position. Vanilla JavaScript front-end consuming the API, with Docker Compose to spin everything up at once.",
     "proj.btreeT": "B-Tree",
-    "proj.btreeD": "B-tree implementation in C covering insertion, balancing and search — the structure behind the database indexes I work with every day.",
+    "proj.btreeD": "B-tree implementation in C, with insertion, balancing and search. It's the structure behind the database indexes I work with every day.",
     "proj.rbT": "Red-Black Tree",
     "proj.rbD": "Step-by-step red-black tree implementation in C, focused on the rotations and recoloring rules that keep the tree balanced on every insertion.",
     "proj.dsD": "Classic data structures in C: binary search tree (insertion, search, pre/in/post-order traversals and removal) and linked list with insertion, removal by value and manual memory management.",
     "proj.cfT": "Algorithm Practice",
-    "proj.cfD": "Codeforces problem sets solved in C, as ongoing practice of programming logic, algorithms and data structures outside working hours.",
+    "proj.cfD": "Codeforces problem sets solved in C. It's my training for programming logic, algorithms and data structures outside working hours.",
 
     "stack.title": "Stack",
     "stack.lang": "Languages",
@@ -200,9 +200,9 @@ window.TG_I18N = {
     "edu.es": "Spanish",    "edu.esL": "basic",
 
     "contact.kicker": "get in touch",
-    "contact.title": "Let's build something together?",
-    "contact.lede": "I'm looking for an internship or a junior role in backend, full stack or generalist development — on-site in Vitória, Brazil, or remote. If my profile caught your eye, reach out.",
+    "contact.title": "Want to talk?",
+    "contact.lede": "I'm looking for an internship or a junior role in software development, without sticking to one label: backend, full stack, automation, integrations, internal tools. What interests me is the problem. On-site in Vitória, Brazil, or remote.",
 
-    "footer.built": "Hand-built with HTML, CSS and JavaScript"
+    "footer.built": "Plain HTML, CSS and JavaScript. No framework."
   }
 };

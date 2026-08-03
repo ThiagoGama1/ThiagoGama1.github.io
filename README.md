@@ -1,4 +1,4 @@
-# Portfólio — Thiago Gama
+# Portfólio | Thiago Gama
 
 Site pessoal estático, sem build e sem dependências: HTML, CSS e JavaScript puro.
 
@@ -6,11 +6,11 @@ Site pessoal estático, sem build e sem dependências: HTML, CSS e JavaScript pu
 
 ## Recursos
 
-- **Bilíngue (PT/EN)** — troca instantânea via dicionário em `assets/js/i18n.js`, sem recarregar a página. A escolha fica salva no `localStorage` e o idioma inicial vem do navegador.
-- **Tema escuro (padrão) e claro** — também salvo no `localStorage`, aplicado antes da primeira pintura para não piscar.
-- **Animações** — revelação em cascata ao rolar (`IntersectionObserver`), contadores animados, diagrama SVG de *request trace* no hero, holofote que segue o cursor nos cards, barra de progresso de leitura.
-- **Acessibilidade** — navegação por teclado, `:focus-visible`, link "pular para o conteúdo", `aria-*` nos controles e suporte a `prefers-reduced-motion`.
-- **SEO** — meta description, Open Graph, `lang` dinâmico, canonical e favicon SVG inline.
+- **Bilíngue (PT/EN)**: troca instantânea via dicionário em `assets/js/i18n.js`, sem recarregar a página. A escolha fica salva no `localStorage` e o idioma inicial vem do navegador.
+- **Tema escuro (padrão) e claro**: também salvo no `localStorage`, aplicado antes da primeira pintura para não piscar.
+- **Animações**: revelação em cascata ao rolar (`IntersectionObserver`), contadores animados, diagrama SVG de *request trace* no hero, holofote que segue o cursor nos cards, barra de progresso de leitura.
+- **Acessibilidade**: navegação por teclado, `:focus-visible`, link "pular para o conteúdo", `aria-*` nos controles e suporte a `prefers-reduced-motion`.
+- **SEO**: meta description, Open Graph, `lang` dinâmico, canonical e favicon SVG inline.
 
 ## Estrutura
 
@@ -44,7 +44,7 @@ python -m http.server 8000
 | Novo projeto | duplicar um `<article class="card card--proj">` no `index.html` |
 | Currículo | substituir o PDF em `assets/` mantendo o nome do arquivo |
 
-> Ao mudar um texto, altere nos **dois** lugares: o `index.html` é o que aparece antes do JS carregar (e o que os buscadores leem), e o `i18n.js` é o que alimenta o botão PT/EN.
+> Ao mudar um texto, altere nos **dois** lugares. O `index.html` é o que aparece antes do JS carregar (e o que os buscadores leem); o `i18n.js` é o que alimenta o botão PT/EN.
 
 ## Deploy (GitHub Pages)
 
@@ -56,4 +56,4 @@ git commit -m "atualiza portfólio"
 git push
 ```
 
-Em **Settings → Pages**, a origem deve estar em `Deploy from a branch` → `main` → `/ (root)`.
+Em **Settings → Pages**, a origem deve estar em `Deploy from a branch`, branch `main`, pasta `/ (root)`.
