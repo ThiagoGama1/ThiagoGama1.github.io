@@ -61,6 +61,7 @@ window.TG_I18N = {
 
     "proj.title": "Projetos",
     "proj.view": "Ver no GitHub",
+    "proj.group": "Projeto em grupo",
     "proj.taskflow": "Gerenciador de projetos com quadro Kanban (A Fazer, Em Andamento, Concluído, com arrastar e soltar), tarefas com prioridade, prazo e responsável, projetos com membros por convite, comentários e log de atividades. O dashboard separa o que está atrasado, o que vence hoje e o que vem depois. Por dentro: camada de repositórios, middleware de sessão, migrations automáticas, seed de demonstração e testes de integração.",
     "proj.lista": "Aplicação fullstack de tarefas: API REST em Go com validação no back-end, CRUD completo e reordenação por posição de exibição. Cada tarefa tem nome, custo e data limite. Front-end em JavaScript puro consumindo a API, e um único docker compose up sobe banco e aplicação.",
     "proj.btreeT": "Árvore B",
@@ -162,6 +163,7 @@ window.TG_I18N = {
 
     "proj.title": "Projects",
     "proj.view": "View on GitHub",
+    "proj.group": "Team project",
     "proj.taskflow": "Project manager with a Kanban board (To Do, In Progress, Done, with drag and drop), tasks with priority, due date and assignee, projects with members by invitation, comments and an activity log. The dashboard separates what's overdue, what's due today and what's coming next. Under the hood: a repository layer, session middleware, automatic migrations, a demo seed and integration tests.",
     "proj.lista": "Fullstack task app: REST API in Go with back-end validation, full CRUD and reordering by display position. Each task has a name, a cost and a due date. Vanilla JavaScript front-end consuming the API, and a single docker compose up brings database and application online.",
     "proj.btreeT": "B-Tree",

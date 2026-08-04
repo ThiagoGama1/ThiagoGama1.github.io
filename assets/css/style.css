@@ -44,7 +44,7 @@
   --line-soft: #EAE6DE;
   --fg:        #14161C;
   --fg-dim:    #414653;
-  --muted:     #6B7080;
+  --muted:     #666B7A; /* 4.84:1 sobre --bg, passa no WCAG AA */
 
   --accent:      #0A7A67;
   --accent-deep: #06584A;
@@ -411,6 +411,11 @@ html[data-lang="en"] .langswitch__pill { transform: translateX(38px); }
   font-family: var(--font-mono); font-size: .655rem; letter-spacing: .04em;
   padding: .26rem .55rem; border-radius: 6px;
   background: var(--surface-2); color: var(--fg-dim); border: 1px solid var(--line-soft);
+}
+/* etiqueta de contexto, não de tecnologia */
+.tag--note {
+  background: transparent; color: var(--muted);
+  border-style: dashed; border-color: var(--line);
 }
 
 /* ---------- 9. experiência ---------- */
