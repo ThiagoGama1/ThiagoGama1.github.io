@@ -265,7 +265,7 @@
         <p class="mono job__when"><span data-i18n="exp.jobFrom">Set 2025</span> <span aria-hidden="true">→</span> <span data-i18n="exp.jobTo">atual</span></p>
       </div>
       <p class="job__intro" data-i18n="exp.jobIntro">
-        Desenvolvo sozinho, de ponta a ponta, sistemas web internos e públicos para as áreas de RH, comercial e financeiro. Reporto o andamento direto ao gestor e entrego em partes.
+        Sou responsável pela arquitetura e pelo back-end dos sistemas web internos e públicos das áreas de RH, comercial e financeiro. Levanto o requisito com a área, modelo o banco, escrevo a API em Go e acompanho até o deploy. Reporto o andamento direto ao gestor e entrego em partes.
       </p>
     </div>
 
@@ -277,7 +277,7 @@
             <h4 class="card__title" data-i18n="exp.p1t">Plataforma de Sorteios e Promoções</h4>
           </div>
           <p class="card__desc" data-i18n="exp.p1d">
-            Desenvolvi a plataforma pública de sorteios das rádios do grupo (Tribuna FM, Legal FM e Tribuna FM Cachoeiro), que atende tanto os ouvintes quanto a equipe das emissoras. Tem autenticação JWT e integração com um serviço externo que verifica se a pessoa é assinante.
+            Plataforma pública de sorteios das rádios do grupo (Tribuna FM, Legal FM e Tribuna FM Cachoeiro), usada pelos ouvintes e pela equipe das emissoras. Fiz a arquitetura e todo o back-end: modelagem do banco, API em Go, autenticação JWT e integração com o serviço externo que verifica se a pessoa é assinante.
           </p>
           <ul class="tags"><li>Go</li><li>Gin</li><li>GORM</li><li>PostgreSQL</li><li>JWT</li></ul>
         </div>
@@ -290,7 +290,7 @@
             <h4 class="card__title" data-i18n="exp.p2t">Sistema de Conformidade com a NR-1</h4>
           </div>
           <p class="card__desc" data-i18n="exp.p2d">
-            Sistema de gestão de riscos psicossociais que cerca de 300 funcionários usam todo mês para avaliar o ambiente de trabalho e registrar denúncias de assédio de forma confidencial. Fiz em Go, com arquitetura MVC, autenticação por sessão e senha com bcrypt.
+            Sistema de gestão de riscos psicossociais que cerca de 300 funcionários usam todo mês para avaliar o ambiente de trabalho e registrar denúncias de assédio de forma confidencial. Estruturei em MVC com Go, com autenticação por sessão e senha com bcrypt.
           </p>
           <ul class="tags"><li>Go</li><li>Gin</li><li>GORM</li><li>MVC</li><li>bcrypt</li></ul>
         </div>
@@ -303,7 +303,7 @@
             <h4 class="card__title" data-i18n="exp.p3t">Portal de Autoatendimento do RH</h4>
           </div>
           <p class="card__desc" data-i18n="exp.p3d">
-            Portal que desenvolvi a pedido do RH, onde cerca de 300 colaboradores atualizam dados cadastrais e bancários. Tem controle de acesso por perfil (administrador e colaborador) e autenticação por JWT. Roda como serviço no Windows Server.
+            Portal feito a pedido do RH, onde cerca de 300 colaboradores atualizam dados cadastrais e bancários. Cuidei do back-end inteiro: controle de acesso por perfil (administrador e colaborador), autenticação por JWT e publicação como serviço no Windows Server.
           </p>
           <ul class="tags"><li>Go</li><li>Gin</li><li>JWT</li><li>Windows Server</li></ul>
         </div>
@@ -316,7 +316,7 @@
             <h4 class="card__title" data-i18n="exp.p4t">Base de Conhecimento Interna</h4>
           </div>
           <p class="card__desc" data-i18n="exp.p4d">
-            Sistema de gestão de conhecimento com arquitetura REST, feito para acelerar o treinamento de quem entra na equipe e não deixar o conhecimento técnico ir embora junto com as pessoas.
+            API em Go com arquitetura REST para guardar e organizar o conhecimento técnico do time, feita para acelerar o treinamento de quem entra e não deixar o que a equipe sabe ir embora junto com as pessoas.
           </p>
           <ul class="tags"><li>Go</li><li>Gin</li><li>REST</li></ul>
         </div>
@@ -355,7 +355,7 @@
         <p class="mono card__kicker">Go · Gin · GORM · PostgreSQL</p>
         <h3 class="card__title">Task_Flow</h3>
         <p class="card__desc" data-i18n="proj.taskflow">
-          Gerenciador de projetos acadêmicos colaborativos com quadro Kanban (arrastar e soltar, ordenação personalizada), prioridades, prazos e convite de membros. O dashboard pessoal separa as tarefas em atrasadas, para hoje e próximas. Tem autenticação com bcrypt, camada de repositórios, middleware próprio e testes de integração.
+          Gerenciador de projetos com quadro Kanban (A Fazer, Em Andamento, Concluído, com arrastar e soltar), tarefas com prioridade, prazo e responsável, projetos com membros por convite, comentários e log de atividades. O dashboard separa o que está atrasado, o que vence hoje e o que vem depois. Por dentro: camada de repositórios, middleware de sessão, migrations automáticas, seed de demonstração e testes de integração.
         </p>
         <ul class="tags"><li>Go 1.25</li><li>Gin</li><li>GORM</li><li>PostgreSQL</li><li>Bootstrap 5</li><li>Docker</li></ul>
         <a class="card__link" href="https://github.com/ThiagoGama1/Task_Flow" target="_blank" rel="noopener">
@@ -367,7 +367,7 @@
         <p class="mono card__kicker">Go · PostgreSQL · Docker</p>
         <h3 class="card__title">listaTarefas</h3>
         <p class="card__desc" data-i18n="proj.lista">
-          Aplicação fullstack de gestão de tarefas: API REST em Go com validação no back-end, CRUD completo e reordenação por posição de exibição. Front-end em JavaScript puro consumindo a API, com Docker Compose para subir tudo de uma vez.
+          Aplicação fullstack de tarefas: API REST em Go com validação no back-end, CRUD completo e reordenação por posição de exibição. Cada tarefa tem nome, custo e data limite. Front-end em JavaScript puro consumindo a API, e um único docker compose up sobe banco e aplicação.
         </p>
         <ul class="tags"><li>Go</li><li>Gin</li><li>pgx</li><li>PostgreSQL</li><li>Docker</li><li>JavaScript</li></ul>
         <a class="card__link" href="https://github.com/ThiagoGama1/listaTarefas" target="_blank" rel="noopener">
@@ -379,7 +379,7 @@
         <p class="mono card__kicker">C</p>
         <h3 class="card__title" data-i18n="proj.btreeT">Árvore B</h3>
         <p class="card__desc" data-i18n="proj.btreeD">
-          Implementação de árvore B em C, com inserção, balanceamento e busca. É a estrutura por trás dos índices dos bancos de dados que uso no dia a dia.
+          Árvore B em C: inserção com split de nós, busca e exibição da estrutura. É o que sustenta os índices dos bancos de dados que uso no dia a dia. Esta é a segunda versão, com melhorias sobre a primeira implementação.
         </p>
         <ul class="tags"><li>C</li><li>Índices</li><li>Balanceamento</li></ul>
         <a class="card__link" href="https://github.com/ThiagoGama1/B_tree2" target="_blank" rel="noopener">
@@ -391,7 +391,7 @@
         <p class="mono card__kicker">C</p>
         <h3 class="card__title" data-i18n="proj.rbT">Árvore Rubro-Negra</h3>
         <p class="card__desc" data-i18n="proj.rbD">
-          Implementação passo a passo de árvore rubro-negra em C, com foco nas rotações e nas regras de recoloração que mantêm a árvore balanceada a cada inserção.
+          Árvore rubro-negra em C, com as cinco propriedades documentadas no próprio código e implementação de inserção e das rotações à esquerda e à direita. O foco foi entender o que mantém a árvore balanceada a cada inserção.
         </p>
         <ul class="tags"><li>C</li><li>Rotações</li></ul>
         <a class="card__link" href="https://github.com/ThiagoGama1/arvore_rubro_negra" target="_blank" rel="noopener">
@@ -403,7 +403,7 @@
         <p class="mono card__kicker">C</p>
         <h3 class="card__title">Data_Structure</h3>
         <p class="card__desc" data-i18n="proj.dsD">
-          Estruturas de dados clássicas em C: árvore binária de busca (inserção, busca, percursos pré/in/pós-ordem e remoção) e lista encadeada com inserção, remoção por valor e gerenciamento manual de memória.
+          Estruturas de dados clássicas em C: árvore binária de busca com inserção, busca, os três percursos (pré, em e pós-ordem) e remoção; e lista encadeada com inserção no início e no fim, remoção por valor e liberação manual de memória.
         </p>
         <ul class="tags"><li>C</li><li>Ponteiros</li><li>Alocação dinâmica</li></ul>
         <a class="card__link" href="https://github.com/ThiagoGama1/Data_Structure" target="_blank" rel="noopener">
