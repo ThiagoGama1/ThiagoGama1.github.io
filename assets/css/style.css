@@ -444,6 +444,29 @@ html[data-lang="en"] .langswitch__pill { transform: translateX(38px); }
 .tl__item:hover::before { transform: scale(1.25); box-shadow: 0 0 0 5px var(--accent-soft); }
 .card--work .card__title { font-size: 1.08rem; }
 
+/* cases da Tribuna: o trabalho principal, com mais espaço que a timeline */
+.grid.cases { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.cases .card--feature { grid-column: 1 / -1; }
+.card--case { display: flex; flex-direction: column; }
+.card--case .card__link { margin-top: auto; padding-top: 1.15rem; text-transform: none; letter-spacing: .02em; }
+.card--case .tags { margin-bottom: .2rem; }
+
+.facts { display: grid; gap: .55rem; margin-top: 1.1rem; }
+.facts li {
+  position: relative; padding-left: 1.2rem;
+  color: var(--fg-dim); font-size: .9rem; line-height: 1.55;
+}
+.facts li::before {
+  content: ""; position: absolute; left: 0; top: .62em;
+  width: 7px; height: 2px; border-radius: 2px; background: var(--accent);
+}
+.card--feature .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 2rem; }
+
+.subhead {
+  margin: 3rem 0 1.1rem; color: var(--muted);
+  font-size: .68rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+}
+
 /* ---------- 10. projetos ---------- */
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); gap: 1.1rem; }
 .card--proj { display: flex; flex-direction: column; }
@@ -519,6 +542,7 @@ html[data-lang="en"] .langswitch__pill { transform: translateX(38px); }
   .panel { transform: none; }
   .about { grid-template-columns: 1fr; }
   .card--feature { grid-column: span 1; }
+  .card--feature .facts { grid-template-columns: 1fr; }
   .stats { grid-template-columns: repeat(2, 1fr); }
   .stack__grp { grid-template-columns: 1fr; gap: .85rem; align-items: start; }
 }
@@ -543,6 +567,7 @@ html[data-lang="en"] .langswitch__pill { transform: translateX(38px); }
   .tl { padding-left: 1.4rem; }
   .tl__item::before { left: -1.4rem; }
   .card { padding: 1.3rem; }
+  .grid.cases, .card--feature .facts { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 460px) {
