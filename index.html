@@ -33,12 +33,15 @@
 <script>
   // Aplica tema e idioma antes da pintura, evitando flash.
   (function () {
-    var t = localStorage.getItem('tg-theme');
+    var root = document.documentElement;
+    root.classList.add('js'); // o CSS só esconde os .reveal quando há JS
+    var t = null, l = null;
+    try { t = localStorage.getItem('tg-theme'); l = localStorage.getItem('tg-lang'); } catch (e) {}
     if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', t);
-    var l = localStorage.getItem('tg-lang');
+    root.setAttribute('data-theme', t);
+    if (t === 'light') document.querySelector('meta[name="theme-color"]').setAttribute('content', '#F6F4EF');
     if (!l) l = (navigator.language || 'pt').toLowerCase().indexOf('pt') === 0 ? 'pt' : 'en';
-    document.documentElement.setAttribute('data-lang', l);
+    root.setAttribute('data-lang', l);
   })();
 </script>
 </head>

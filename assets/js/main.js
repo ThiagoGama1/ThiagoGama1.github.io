@@ -34,7 +34,7 @@
 
     root.setAttribute('data-lang', lang);
     root.setAttribute('lang', lang === 'pt' ? 'pt-BR' : 'en');
-    localStorage.setItem('tg-lang', lang);
+    try { localStorage.setItem('tg-lang', lang); } catch (e) {} // armazenamento bloqueado
 
     document.querySelectorAll('[data-lang-set]').forEach(function (b) {
       var on = b.getAttribute('data-lang-set') === lang;
@@ -55,7 +55,7 @@
     themeBtn.addEventListener('click', function () {
       var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
       root.setAttribute('data-theme', next);
-      localStorage.setItem('tg-theme', next);
+      try { localStorage.setItem('tg-theme', next); } catch (e) {}
       var meta = document.querySelector('meta[name="theme-color"]');
       if (meta) meta.setAttribute('content', next === 'dark' ? '#0A0B0F' : '#F6F4EF');
     });

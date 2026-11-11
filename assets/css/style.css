@@ -527,7 +527,8 @@ html[data-lang="en"] .langswitch__pill { transform: translateX(38px); }
 .foot p { color: var(--muted); font-size: .66rem; }
 
 /* ---------- 15. reveal ---------- */
-.reveal { opacity: 0; transform: translateY(22px); }
+/* só esconde quando há JS para revelar; sem JS o conteúdo fica visível */
+.js .reveal { opacity: 0; transform: translateY(22px); }
 .reveal.is-in {
   opacity: 1; transform: none;
   transition: opacity .8s var(--ease), transform .8s var(--ease);
@@ -581,11 +582,12 @@ html[data-lang="en"] .langswitch__pill { transform: translateX(38px); }
     animation-duration: .001ms !important; animation-iteration-count: 1 !important;
     transition-duration: .001ms !important; scroll-behavior: auto !important;
   }
-  .reveal { opacity: 1; transform: none; }
+  .js .reveal { opacity: 1; transform: none; }
 }
 
 @media print {
   .nav, .grain, .progress, .hero__bg, .hero__viz, .skip { display: none !important; }
   body { background: #fff; color: #000; }
   .card, .sec--alt { break-inside: avoid; }
+  .js .reveal { opacity: 1 !important; transform: none !important; }
 }
