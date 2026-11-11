@@ -62,11 +62,13 @@
   }
 
   /* ---------- contadores ---------- */
+  // O valor final já vem escrito no HTML (sem JS, crawlers, JS lento).
+  // A contagem a partir de 0 é só um extra, e não roda com reduced-motion.
   var counters = Array.prototype.slice.call(document.querySelectorAll('[data-count]'));
 
   function renderCounters() {
     counters.forEach(function (el) {
-      if (el.dataset.done === '1') paint(el, +el.dataset.count);
+      if (el.dataset.anim !== '1') paint(el, +el.dataset.count);
     });
   }
 
@@ -84,12 +86,14 @@
     if (reduce) { paint(el, target); return; }
 
     var dur = 1200, t0 = null;
+    el.dataset.anim = '1';
     function step(ts) {
       if (t0 === null) t0 = ts;
       var p = Math.min((ts - t0) / dur, 1);
       var eased = 1 - Math.pow(1 - p, 3);
       paint(el, Math.round(target * eased));
       if (p < 1) requestAnimationFrame(step);
+      else el.dataset.anim = '0';
     }
     requestAnimationFrame(step);
   }

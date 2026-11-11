@@ -21,7 +21,7 @@ Site pessoal estático, sem build e sem dependências: HTML, CSS e JavaScript pu
 │   ├── css/style.css              # tokens de tema, layout e animações
 │   ├── js/i18n.js                 # dicionário PT + EN
 │   ├── js/main.js                 # idioma, tema, scroll, contadores, menu
-│   └── Thiago_Gama_Moreira_CV.pdf # currículo para download
+│   └── Curriculo_Thiago_Gama_v6.pdf # currículo para download
 ├── .nojekyll                      # GitHub Pages serve os arquivos como estão
 └── README.md
 ```
@@ -42,7 +42,7 @@ python -m http.server 8000
 | Textos (PT e EN) | `assets/js/i18n.js` **e** o texto padrão no `index.html` |
 | Cores e tipografia | bloco `:root` / `[data-theme="light"]` no topo do `style.css` |
 | Novo projeto | duplicar um `<article class="card card--proj">` no `index.html` |
-| Currículo | substituir o PDF em `assets/` mantendo o nome do arquivo |
+| Currículo | colocar o PDF novo em `assets/` e atualizar o link do botão "Baixar CV" no `index.html` |
 
 > Ao mudar um texto, altere nos **dois** lugares. O `index.html` é o que aparece antes do JS carregar (e o que os buscadores leem); o `i18n.js` é o que alimenta o botão PT/EN.
 
