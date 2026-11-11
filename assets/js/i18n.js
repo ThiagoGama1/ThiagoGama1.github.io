@@ -134,7 +134,7 @@ window.TG_I18N = {
 
     "contact.kicker": "contato",
     "contact.title": "Vamos conversar?",
-    "contact.lede": "Procuro estágio ou vaga júnior em desenvolvimento de software. Backend, full stack, automação, integrações, inteligência artificial, ferramentas internas, tudo isso me interessa. Presencial em Vitória (ES) ou remoto.",
+    "contact.lede": "Procuro estágio ou vaga júnior como desenvolvedor de sistemas ou engenheiro de software com IA. Backend, full stack, automação, integrações, inteligência artificial, ferramentas internas, tudo isso me interessa. Presencial em Vitória (ES) ou remoto.",
 
     "footer.built": "HTML, CSS e JavaScript puro. Sem framework."
   },
@@ -269,7 +269,7 @@ window.TG_I18N = {
 
     "contact.kicker": "get in touch",
     "contact.title": "Want to talk?",
-    "contact.lede": "I'm looking for an internship or a junior role in software development. Backend, full stack, automation, integrations, artificial intelligence, internal tools, all of that interests me. On-site in Vitória, Brazil, or remote.",
+    "contact.lede": "I'm looking for an internship or junior role as a systems developer or software engineer working with AI. Backend, full stack, automation, integrations, artificial intelligence, internal tools, all of that interests me. On-site in Vitória, Brazil, or remote.",
 
     "footer.built": "Plain HTML, CSS and JavaScript. No framework."
   }
